@@ -196,10 +196,7 @@ input:-ms-input-placeholder {
   gap: 1.5rem;
 }
 
-.db_up_img {
-  background-color: #fff;
-  border-radius: 50%;
-}
+
 
 .db_up_img img {
   border-radius: 50%;
@@ -249,4 +246,25 @@ input:-ms-input-placeholder {
   position: absolute;
   bottom: 8%;
   left:8%;
+}
+
+.round{
+  display:inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #edb868;
+  margin-right: 0.4rem;
+}
+
+.db_coach_year, .coach_year{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.coach_year{
+  gap:1rem;
+  color: #a8a4a4;
+  font-size: 0.875rem;
 }
